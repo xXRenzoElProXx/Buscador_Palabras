@@ -11,7 +11,7 @@ Este proyecto es una **herramienta interactiva** que permite resaltar palabras e
 - **Diseño limpio**: Interfaz sencilla y fácil de usar.
 
 ## 📸 Imágenes
-![Captura de pantalla de la herramienta](./screenshot-highlight.jpeg)
+![Captura de pantalla de la herramienta](./screenshot.png)
 
 ## 🛠️ Tecnologías utilizadas
 <p align="center">
@@ -53,5 +53,5 @@ resaltador-palabras/
 ├── index.html        # Archivo principal de la aplicación.
 ├── styles.css        # Hoja de estilos.
 ├── script.js         # Archivo con la lógica.
-├── screenshot.jpeg # Captura de pantalla.
+├── screenshot.png # Captura de pantalla.
 ```
