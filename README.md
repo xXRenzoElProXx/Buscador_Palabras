@@ -33,7 +33,7 @@ Este proyecto es una **herramienta interactiva** que permite resaltar palabras e
 ## 🚀 Instalación y uso
 ### 1. Clona el repositorio a tu máquina local:
 ```bash
-git clone https://github.com/xXRenzoElProXx/Resaltador_Palabras.git
+git clone https://github.com/xXRenzoElProXx/Buscador_Palabras.git
 ```
 ### 2. Navega a la carpeta del proyecto:
 ```bash
