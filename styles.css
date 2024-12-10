@@ -5,6 +5,11 @@ body {
     background: linear-gradient(#1e3a8a, #6d28d9);
     background-size: cover;
     background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
 }
 
 .container {
@@ -16,43 +21,35 @@ body {
     border-radius: 12px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     animation: fadeIn 1s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 h1 {
     text-align: center;
     color: #1f2937;
-    margin-bottom: 0.9rem;
+    margin-bottom: 0.5rem;
     font-size: 1.5rem;
 }
 
-textarea {
+textarea, 
+input[type="text"] {
     width: 100%;
-    min-height: 150px;
     padding: 0.75rem;
-    margin-bottom: 0.9rem;
     border: 1px solid #d1d5db;
     border-radius: 8px;
     box-sizing: border-box;
+    font-size: 1rem;
     resize: vertical;
     transition: border-color 0.3s;
 }
 
-textarea:focus {
-    border-color: #6d28d9;
-    outline: none;
-    box-shadow: 0 0 0 2px rgba(109, 40, 217, 0.2);
+textarea {
+    min-height: 150px;
 }
 
-input[type="text"] {
-    width: calc(100% - 22px);
-    padding: 0.75rem;
-    border: 1px solid #d1d5db;
-    border-radius: 8px;
-    box-sizing: border-box;
-    margin-bottom: 0.9rem;
-    transition: border-color 0.3s;
-}
-
+textarea:focus, 
 input[type="text"]:focus {
     border-color: #6d28d9;
     outline: none;
@@ -67,7 +64,7 @@ button {
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    font-size: 0.9rem;
+    font-size: 1rem;
     transition: background-color 0.3s, transform 0.2s;
 }
 
@@ -79,35 +76,23 @@ button:active {
     transform: scale(0.98);
 }
 
-#resultContainer {
-    margin-top: 0.9rem;
+#resultContainer, 
+#countContainer {
     padding: 0.9rem;
     border: 1px solid #d1d5db;
     border-radius: 8px;
     background: #fafafa;
-    min-height: 150px;
+    min-height: 50px;
     white-space: pre-wrap;
     word-wrap: break-word;
     animation: fadeIn 1s ease-in-out;
 }
 
 #countContainer {
-    margin-top: 0.9rem;
-    padding: 0.9rem;
-    border: 1px solid #d1d5db;
-    border-radius: 8px;
-    background: #fafafa;
-    min-height: 20px;
-    white-space: pre-wrap;
-    word-wrap: break-word;
-    animation: fadeIn 1s ease-in-out;
-    font-size: 20px;
-    text-align: center;
-}
-
-#countContainer {
-    background: #fefefe;
     font-weight: bold;
+    text-align: center;
+    font-size: 1.2rem;
+    background: #fefefe;
 }
 
 .highlight {
@@ -120,7 +105,6 @@ button:active {
     from {
         opacity: 0;
     }
-
     to {
         opacity: 1;
     }
@@ -130,7 +114,6 @@ button:active {
     from {
         background-color: #ffeb3b;
     }
-
     to {
         background-color: #ffeb3b;
     }
@@ -140,17 +123,12 @@ button:active {
     h1 {
         font-size: 1.25rem;
     }
-
-    textarea {
-        font-size: 0.875rem;
-    }
-
+    textarea,
     input[type="text"],
     button {
         font-size: 0.875rem;
     }
-
     #countContainer {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 }
