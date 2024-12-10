@@ -37,7 +37,7 @@ git clone https://github.com/xXRenzoElProXx/Buscador_Palabras.git
 ```
 ### 2. Navega a la carpeta del proyecto:
 ```bash
-cd resaltador-palabras
+cd buscador-palabras
 ```
 ### 3. Abre el archivo index.html en tu navegador para probar la aplicación.
 
@@ -49,7 +49,7 @@ cd resaltador-palabras
 
 ## 📂 Estructura de archivos
 ```bash
-resaltador-palabras/
+buscador-palabras/
 ├── index.html        # Archivo principal de la aplicación.
 ├── styles.css        # Hoja de estilos.
 ├── script.js         # Archivo con la lógica.
