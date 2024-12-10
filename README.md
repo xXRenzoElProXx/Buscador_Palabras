@@ -41,7 +41,7 @@ cd resaltador-palabras
 ```
 ### 3. Abre el archivo index.html en tu navegador para probar la aplicación.
 
-##🧑‍💻 Uso de la herramienta
+## 🧑‍💻 Uso de la herramienta
 ### 1. Escribe o pega un texto en el área correspondiente.
 ### 2. Ingresa la palabra, número o símbolo que deseas buscar en el campo "Palabra a buscar".
 ### 3. Haz clic en "Resaltar" para encontrar coincidencias.
