@@ -44,7 +44,7 @@ cd buscador-palabras
 ## 🧑‍💻 Uso de la herramienta
 1. Escribe o pega un texto en el área correspondiente.
 2. Ingresa la palabra, número o símbolo que deseas buscar en el campo "Palabra a buscar".
-3. Haz clic en "Resaltar" para encontrar coincidencias.
+3. Haz clic en "Buscar" para encontrar coincidencias.
 4. Observa cómo las coincidencias se resaltan automáticamente y el contador muestra los resultados.
 
 ## 📂 Estructura de archivos
